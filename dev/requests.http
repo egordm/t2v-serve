@@ -1,0 +1,23 @@
+###
+POST localhost:8080/vectors
+Content-Type: application/json
+
+{
+    "text": "I am a sentence for which I would like to get its embedding."
+}
+
+###
+POST localhost:8080/vectors/batch
+Content-Type: application/json
+
+[
+  {
+    "text": "I am a sentence for which I would like to get its embedding.z"
+  },
+  {
+    "text": "I am a sentence for which I would like to get its embedding."
+  },
+  {
+    "text": "I am a sentence for which I would like to get its embedding."
+  }
+]
