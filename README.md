@@ -1,4 +1,5 @@
-# T2V-Serve
+# T2V-Serve ![Docker Image Version](https://img.shields.io/docker/v/egordm/t2v-serve)
+
 A simple webserver for serving embeddings using a huggingface model.
 
 * Compatible with weaviate
